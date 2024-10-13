@@ -1,0 +1,18 @@
+{
+  "name": "build-react-library",
+  "version": "1.0.0",
+  "description": "simple frontend library like react, basically react js copycat",
+  "main": "index.js",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start": "babel index.js --out-file main.js --watch"
+  },
+  "author": "Alvian Naya Prdhana",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.25.7",
+    "@babel/core": "^7.25.8",
+    "@babel/preset-react": "^7.25.7"
+  }
+}
